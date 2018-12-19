@@ -1,0 +1,18 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url("https://www.presentationmagazine.com/images3/businesslinescolours1024.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+
+.userScore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: 158px;
+    width: 158px;
+}
