@@ -14,8 +14,10 @@ var resetGame = function () {
     randomNumber = Math.floor(Math.random() * 101) + 19;
     console.log(randomNumber);
 
+    // Show the random number for user to try and guess
     $("#result").html('Random Number: ' + randomNumber);
 
+    // Empty the crystal and reset after the functions    
     $(".crystals").empty();
 
     // Found this version of splitting the div and assigning the number to it. Thought it was awesome
@@ -36,6 +38,7 @@ var resetGame = function () {
     // I don't think this is working the way I intended it too... sometimes get multiple of same random number
     if (random === randomNumber) {
         (randomNumber) += 1;
+        // In class Jeff went over calculator that used result = blah + blah. See if that works 
     }
     // Writing out the previous number total in my html
     $("#numberTotal").html('' + previous);
