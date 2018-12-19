@@ -34,12 +34,27 @@ body {
 }
 
 div.crystal {
-    background-image: url(../Images/crystal1.jpeg), url(../Images/crystal2.jpeg), url(../Images/crystal3.jpeg), url(../Images/crystal4.jpeg);
     background-size: 200px 200px;
     border: 1px solid #C359A7;
     height: 200px;
     width: 200px;
     border-radius: 15px;
+}
+
+#crystal0 {
+    background-image: url(../Images/crystal1.jpeg)
+}
+
+#crystal1 {
+    background-image: url(../Images/crystal2.jpeg)
+}
+
+#crystal2 {
+    background-image: url(../Images/crystal3.jpeg)
+}
+
+#crystal3 {
+    background-image: url(../Images/crystal4.jpeg)
 }
 
 #numberTotal {

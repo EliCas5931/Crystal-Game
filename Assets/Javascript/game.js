@@ -29,7 +29,9 @@ var resetGame = function () {
         // Apply the random number generated to the 4 divided crystals and add the name crystal to it
         var crystal = $("<div>");
         crystal.attr({
+            // Morgan explained about adding i to pull number and rename the crystals. Have to rewrite whole code if you use it. Try CSS first, might be easier LOL
             "class": 'crystal',
+            "id": 'crystal' + i,
             "data-random": random
         });
         // Adding the crystal class to my document
